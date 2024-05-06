@@ -45,6 +45,9 @@ print("Neutral posts:", neutral_count)
 ~~~
 
 <H3>Output:</H3>
-Show your execution results here
+
+![out](https://github.com/abdulwasih2003/Project-Based-Experiment-AAI/assets/91781810/29cd1f8c-65fa-4bd7-aabd-d545209a5f33)
+
 <H3>Inference:</H3>
+
 Through this project, I've learned about the process of parsing Facebook data, performing sentiment analysis, and counting occurrences of specific terms. I've gained insights into how to use Python libraries like NLTK for sentiment analysis and JSON for data parsing. Additionally, I've reinforced the importance of adapting code to different data structures and requirements.
