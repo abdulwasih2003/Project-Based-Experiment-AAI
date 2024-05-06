@@ -5,7 +5,8 @@
 <H3>Objective:<H3>
 Perform sentiment analysis using your Facebook data and count the number of Occurrences of my name in the extracted text.
 <H3>Program:</H3>
-```py
+
+~~~py
 import json
 from nltk.sentiment import SentimentIntensityAnalyzer
 
@@ -26,7 +27,7 @@ neutral_count = 0
 
 for post in data['posts']:
     # Count occurrences of term
-    term_count += post['message'].count('Tom')
+    term_count += post['message'].count('Syed Abdul Wasih')
     
     # Perform sentiment analysis
     sentiment_score = sia.polarity_scores(post['message'])
@@ -37,13 +38,13 @@ for post in data['posts']:
     else:
         neutral_count += 1
 
-print("Occurrences of 'Tom':", term_count)
+print("Occurrences of 'Syed Abdul Wasih':", term_count)
 print("Positive posts:", positive_count)
 print("Negative posts:", negative_count)
 print("Neutral posts:", neutral_count)
+~~~
 
-```
 <H3>Output:</H3>
 Show your execution results here
 <H3>Inference:</H3>
-Write about your learning experience out of this project. (What you have learned)
+Through this project, I've learned about the process of parsing Facebook data, performing sentiment analysis, and counting occurrences of specific terms. I've gained insights into how to use Python libraries like NLTK for sentiment analysis and JSON for data parsing. Additionally, I've reinforced the importance of adapting code to different data structures and requirements.
